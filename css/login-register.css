@@ -6,6 +6,7 @@
 
 body{
     font-size: 16px;
+    line-height: 2em;
 }
 
 
@@ -45,23 +46,26 @@ div >a, span>a{
 }
 
 .shell-1{
-    /* height: 200vh; */
+    height: 200vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: start;
-    /* gap: 10%; */
 }
 
 .form-container{
     width: 40%;
-    margin: 2% 2% 0 3%;
+    margin-top: 18vh;
+}
+
+.login-container{
+    padding-right: 10%;
 }
 
 .masthead{
     font-size: 3em;
     font-weight: bolder;
-    padding: 1.4em 0 0.5em 0;
+    padding-bottom: 6.6vh;
     border-bottom: 3px solid whitesmoke;
 }
 
@@ -70,8 +74,31 @@ div >a, span>a{
     padding: 2em 0 0.5em 0;
 }
 
+.form-parent > .input{
+    width: 75%;
+    height: 3em;
+    background-color: #eee;
+    border: none;
+}
+
+.registeration-container{
+    padding-left: 10%;
+}
+
+.aqua{
+    color: aqua;
+}
+
 .btn{
     background-color: #0000ff;
     border: none;
     color: white;
+    width: 7em;
+    height: 3em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.btn2{
+    width: 12em;
 }

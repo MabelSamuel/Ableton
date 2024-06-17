@@ -11,7 +11,7 @@
     <header class="shell-0">
         <div class="header">
             <div class="left-header header-left">
-                <div><a href="">Button</a></div>
+                <div><a href=""><img src="/Assets/images/favicon.f83afbda6c78.ico" alt=""></a></div>
                 <div><a href="">Live</a></div>
                 <div><a href="">Push</a></div>
                 <div><a href="">Note</a></div>
@@ -33,42 +33,48 @@
      <section class="shell-1">
         <!-- the login form -->
          <div class="form-container">
-            <h2 class="masthead">Log in</h2>
-            <p class="first-line"><b>Why do I need to log in?</b></p>
-            <p>To use any version of Live (including Live Lite or our free trial) you need an Ableton account. It takes less than a minute to create one, and even less to log in if you already have one.</p>
-            <form>
-                <label for="email">E-mail or username</label><br>
-                <input type="email" id="email"><br>
-                <label for="password">Password <a href="">Forgot password?</a></label><br>
-                <input type="password" id="password"><br>
-                <button class="btn">Log in</button>
-            </form>
+            <div class="login-container">
+                <h2 class="masthead">Log in</h2>
+                <p class="first-line"><b>Why do I need to log in?</b></p>
+                <p>To use any version of Live (including Live Lite or our free trial) you need an Ableton account. It takes less than a minute to create one, and even less to log in if you already have one.</p>
+                <form class="form-parent">
+                    <label for="email">E-mail or username</label><br>
+                    <input type="email" id="email" class="input"><br>
+                    <label for="password"><span>Password</span> <a href="">Forgot password?</a></label><br>
+                    <input type="password" id="password" class="input"><br><br>
+                    <button class="btn">Log in</button>
+                </form>
+            </div>
          </div>
 
          <!-- the registration form -->
           <div class="form-container">
-            <h2 class="masthead">Register</h2>
-            <p class="first-line"><b>New Customer? Please create an account.</b></p>
-            <p>Your account lets you authorize and download Live plus your included library content.</p>
-            <form>
-                <label for="email-r">Email</label><br>
-                <input type="email" id="email-r"><br>
-                <label for="password-r">Password</label><br>
-                <input type="password" id="password-r"><br>
-                <label for="first-name">First name</label><br>
-                <input type="text" id="first-name" placeholder="optional"><br>
-                <p>So that we know what to call you if we email you.</p>
-                <label for="last-name">Last name</label><br>
-                <input type="text" id="last-name"><br>
-                <label for="">Country or Region</label><br>
-                <select name="" id="">
-                    <option value="">Please Choose</option>
-                    <option value="">Nigeria</option>
-                </select><br>
-                <input type="checkbox" name="" id=""> 
-                <span><b>Sign up to the Ableton newsletter to stay up to date with the latest special offers, tutorial videos, downloads, surveys and other news.</b> It`s free and you can unsubscribe at any time. Further information is available in our Privacy Policy.</span>
-                <button class="btn">Create account</button>
-            </form>
+            <div class="registeration-container">
+                <h2 class="masthead">Register</h2>
+                <p class="first-line"><b>New Customer? Please create an account.</b></p>
+                <p>Your account lets you authorize and download Live plus your included library content.</p>
+                <form class="form-parent">
+                    <label for="email-r">Email</label><br>
+                    <input type="email" id="email-r" class="input"><br>
+                    <label for="password-r">Password</label><br>
+                    <input type="password" id="password-r" class="input"><br>
+                    <label for="first-name">First name</label><br>
+                    <input type="text" id="first-name" class="input" placeholder="optional"><br>
+                    <p class="aqua">So that we know what to call you if we email you.</p>
+                    <label for="last-name">Last name</label><br>
+                    <input type="text" id="last-name" class="input" placeholder="optional"><br>
+                    <label for="">Country or Region</label><br>
+                    <select name="" id="">
+                        <option value="">Please Choose</option>
+                        <option value="">Nigeria</option>
+                    </select><br>
+                    <input type="checkbox" name="" id=""> 
+                    <span><b>Sign up to the Ableton newsletter to stay up to date with the latest special offers, tutorial videos, downloads, surveys and other news.</b> It`s free and you can unsubscribe at any time. Further information is available in our Privacy Policy.</span>
+                    <br>
+                    <br>
+                    <button class="btn btn2">Create account</button>
+                </form>
+            </div>
           </div>
      </section>
 </body>
