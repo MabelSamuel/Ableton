@@ -41,7 +41,8 @@ div >a, span>a{
     width: 25%;
 }
 
-.colored-blue > a{
+.colored-blue > a, 
+.password-blue{
     color: blue;
 }
 
@@ -79,6 +80,10 @@ div >a, span>a{
     height: 3em;
     background-color: #eee;
     border: none;
+}
+
+.password{
+    margin-right: 38%;
 }
 
 .registeration-container{

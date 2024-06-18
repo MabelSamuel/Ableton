@@ -48,7 +48,7 @@ div >a, span>a{
 }
 
 .grid-item{
-    background-image: cover;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
