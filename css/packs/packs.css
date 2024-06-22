@@ -45,3 +45,23 @@ div >a, span>a{
 .password-blue{
     color: blue;
 }
+
+.shell-1{
+    height: 60vh;
+    width: 100vw;
+    background-image: url(/Assets/images/Pack_Lostandfound_Packspagebanner_2559px_x_778px\ \(1\).avif);
+    background-position: center;
+    background-size: cover;
+    color: yellow;
+    padding-top: 6em;
+    padding-left: 6.5em;
+    line-height: 2.5em;
+}
+
+.shell-1>h1{
+    font-size: 3rem;
+}
+.shell-1>h3, .shell-1>a{
+    font-size: 2rem;
+    color: yellow;
+}

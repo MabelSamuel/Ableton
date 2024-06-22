@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Try Live 12 for free</title>
-    <link rel="stylesheet" href="/css/try-live.css">
+    <!-- styles for all screen sizes -->
+    <link rel="stylesheet" href="/css/try-live/main.css">
+    <!-- styles for mobile devices -->
+    <link rel="stylesheet" href="/css/try-live/mobile.css" media="screen and (min-width: 480px) and (max-width: 767px)">
+    <!-- styles for tablet -->
+     <link rel="stylesheet" href="/css/try-live/tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <!-- styles for desktop -->
+    <link rel="stylesheet" href="/css/try-live/desktop.css" media="screen and (min-width: 1024px)">
+
+    <!-- cdn tag for fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- the first header -->
@@ -34,7 +44,7 @@
         <div class="box1">
             <div class="box1-content">
                 <h1>Try Ableton Live
-                    <br>for free</h1>
+                    <span class="block">for free</span></h1>
                     <br>
                 <h3>Get all the features of Live 12 Suite free for 30 days.</h3>
                 <br>
@@ -47,6 +57,7 @@
                 </span>
                 <p><a href="">System Requirements </a></p>
                 <p><a href="">End User License Agreement</a></p>
+                <a href="http://youtube.com"><i class="fa-solid fa-circle-play" style="color: #184faf;"></i> Watch: What is Live?</a>
             </div>
         </div>
 
@@ -59,16 +70,16 @@
         <div class="box box3">
             <div>
                 <h2>What is Ableton Live?</h2>
-                <br>
-                <p>Ableton Live lets you easily create, produce and perform music within one intuitive interface. Live keeps everything in sync and works in real-time, so you can play and modify your musical ideas without interrupting the creative flow.</p>
+                <br class="break">
+                <p class="margin-top">Ableton Live lets you easily create, produce and perform music within one intuitive interface. Live keeps everything in sync and works in real-time, so you can play and modify your musical ideas without interrupting the creative flow.</p>
                 <p>Live comes with a versatile collection of instruments, sounds, kits and loops for creating any kind of music and provides a full complement of effects to tweak and process your sound.</p>
                 <br>
                 <br>
             </div>
 
             <div>
-                <h2>Ableton Live 12 Suite includes:</h2>
-                <br>
+                <h2 class="bottom-margin">Ableton Live 12 Suite includes:</h2>
+                <br class="break">
                 <ul class="inside">
                     <li>20 instruments, including Meld, Granulator III, Wavetable, Simpler and more</li>
                     <li>74 effects for processing Audio and MIDI, including Roar, Hybrid Reverb, Spectral Resonator, PitchLoop89, the new Performance Pack and many more</li>
@@ -80,7 +91,7 @@
                 <br>
             </div>
 
-            <div>
+            <div class="box3-3">
                 <h2>Installation on a Windows PC</h2>
                 <br>
                 <p>Unzip the file and run setup.msi. Then open Live and follow the instructions there. If you want to uninstall the trial at any point, <a href="">you can find help here.</a></p>
@@ -96,7 +107,7 @@
         </div>
 
             <div class="box box4">
-                <h3>Live 12 System Requirements</h3>
+                <h3 class="margin-b">Live 12 System Requirements</h3>
                 <h3><a href="">macOS</a> <span>Windows</span></h3>
                 <ul class="inside">
                     <li>macOS 11 Big Sur or higher</li>
@@ -111,5 +122,83 @@
                 </ul>
             </div>
       </section>
+
+      <!-- the footer -->
+      <footer>
+        <div class="grid">
+            <div class="grid-item1">
+                <h2>Ableton</h2>
+            </div>
+            <div class="grid-item2">
+                <ul class="style-none">
+                    <li><a href="">Register Live or Push</a></li>
+                    <li><a href="">About Ableton</a></li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+                <span class="icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook icon-large" style="color: #065998;"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter icon-large" style="color: #000919;"></i></a> 
+                    <a href="https://youtube.com"><i class="fa-brands fa-youtube icon-large" style="color: #ff1414;"></i></a> 
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram icon-large" style="color: #cf5520;"></i></a> 
+                    <a href="https://tiktok.com"><i class="fa-brands fa-tiktok icon-large" style="color: #050000;"></i></a>
+                </span>
+            </div>
+            <div class="grid-item3">
+                <h3>Education</h3>
+                <ul class="style-none">
+                    <li><a href="">Offers for students and teachers</a></li>
+                    <li><a href="">Ableton for the Classroom</a></li>
+                    <li><a href="">Ableton for Colleges and Universities</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-item4">
+                <h3>Sign up to our newsletter</h3>
+                <p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.
+                </p>
+                <span class="input-layout">
+                    <input type="email" name="" id="address" placeholder="Email Address"><button class="footer-btn pointer">Sign up</button>
+                </span>
+            </div>
+
+            <div class="grid-item5">
+                <h3>Community</h3>
+                <ul class="style-none">
+                    <li><a href="">Find Ableton User Groups</a></li>
+                    <li><a href="">Find Certified Training</a></li>
+                    <li><a href="">Become a Certified Trainer</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-item6">
+                <h3>Language and Location</h3>
+                <select class="selection slct1 pointer">
+                    <option value="">English</option>
+                </select>
+                <select class="selection slct2 pointer">
+                    <option value="">Nigeria</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- bottom part of the footer -->
+         <div class="flex-parent">
+                <ul class="flex-left">
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Press Resources</a></li>
+                    <li><a href="">Legal Info</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Settings</a></li>
+                    <li><a href="">Imprint</a></li>
+                </ul>
+            
+                <ul class="flex-right">
+                    <li>Made in Berlin</li>
+                    <li class="footer-img"><img src="/Assets/images/apple-touch-icon.fb3597184cb0.png" alt=""></li>
+                </ul>
+        </div>
+      </footer>
+</body>
+</html>
 </body>
 </html>

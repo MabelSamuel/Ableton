@@ -1,0 +1,160 @@
+.header{
+    display: none;
+}
+
+.form-container1, .form-container2{
+    width: 40%;
+    margin-top: 18vh;
+}
+
+.login-container{
+    padding-right: 10%;
+}
+
+.masthead{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 6.6vh;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.first-line{
+    font-size: 1.3em;
+    padding: 2em 0 0.5em 0;
+}
+
+.form-parent > .input, #options{
+    width: 75%;
+    height: 3em;
+    background-color: #eee;
+    border: none;
+}
+
+.password{
+    margin-right: 38%;
+}
+
+.registeration-container{
+    padding-left: 10%;
+}
+
+.aqua{
+    color: aqua;
+}
+
+.btn{
+    background-color: #0000ff;
+    border: none;
+    color: white;
+    width: 7em;
+    height: 3em;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 12em;
+}
+
+/* styling the footer */
+footer{
+    height: fit-content;
+    padding: 9% 0 9% 9%;
+    font-size: 0.9rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.grid-item1>h2{
+    font-size: 2.7rem;
+}
+
+.grid-item1{
+    order: 0;
+}
+
+.grid-item2{
+    order: 2;
+}
+
+.grid-item3{
+    order: 3;
+}
+
+.grid-item4{
+    order: 1;
+}
+
+.grid-item5{
+    order: 4;
+}
+
+.grid-item6{
+    order: 5;
+}
+
+.input-layout>#address{
+    width: 74%;
+    height: 5vh;
+    background-color: #eee;
+    border: none;
+}
+
+.input-layout>.footer-btn{
+    background-color: #0000ff;
+    border: none;
+    height: 5vh;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.style-none> li>a,
+.flex-left>li>a{
+    color: black;
+}
+
+.selection{
+    background-color: #eee;
+    border: none;
+}
+
+.slct1{
+    width: 15%;
+    height: 4.5vh;
+}
+
+.slct2{
+    width: 21%;
+    height: 4.5vh;
+}
+
+.flex-left, .flex-right{
+    margin-top: 3rem;
+}
+
+.flex-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-img>img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.footer-img{
+    display: flex;
+    align-items: center;
+}

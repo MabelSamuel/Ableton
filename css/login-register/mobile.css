@@ -1,0 +1,170 @@
+.header{
+    display: none;
+}
+
+.shell-1{
+    height: 220vh;                                          
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-container1{
+    width: 100%;
+}
+
+.form-container2{
+    width: 100%;
+}
+
+.login-container, .registeration-container{
+    padding: 8% 6% 6% 9%;
+}
+
+.masthead{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 4vh;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.first-line{
+    font-size: 1.3em;
+    padding-top: 0.6em;
+}
+
+.form-parent > .input, #options{
+    width: 84%;
+    height: 3em;
+    background-color: #eee;
+    border: none;
+}
+
+.password-label{
+    width: 84%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.password-blue{
+    color: blue;
+}
+
+.aqua{
+    color: aqua;
+}
+
+.btn{
+    background-color: #0000ff;
+    border: none;
+    color: white;
+    width: 5.5em;
+    height: 2em;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 9em;
+}
+
+/* styling the footer */
+footer{
+    height: fit-content;
+    padding: 9% 0 9% 9%;
+    font-size: 0.9rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.grid-item1>h2{
+    font-size: 2.7rem;
+}
+
+.grid-item1{
+    order: 0;
+}
+
+.grid-item2{
+    order: 2;
+}
+
+.grid-item3{
+    order: 3;
+}
+
+.grid-item4{
+    order: 1;
+}
+
+.grid-item5{
+    order: 4;
+}
+
+.grid-item6{
+    order: 5;
+}
+
+.input-layout>#address{
+    width: 74%;
+    height: 5vh;
+    background-color: #eee;
+    border: none;
+}
+
+.input-layout>.footer-btn{
+    background-color: #0000ff;
+    border: none;
+    height: 5vh;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.style-none> li>a,
+.flex-left>li>a{
+    color: black;
+}
+
+.selection{
+    background-color: #eee;
+    border: none;
+}
+
+.slct1{
+    width: 23%;
+    height: 4.5vh;
+}
+
+.slct2{
+    width: 41%;
+    height: 4.5vh;
+}
+
+.flex-left, .flex-right{
+    margin-top: 3rem;
+}
+
+.flex-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-img>img{
+    width: 4rem;
+}
+
+.footer-img{
+    display: flex;
+    align-items: center;
+}

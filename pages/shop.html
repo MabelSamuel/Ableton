@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <link rel="stylesheet" href="/css/shop.css">
+    <link rel="stylesheet" href="/css/shops/shop.css">
+    
+    <!-- cdn tag for fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- the first header -->
@@ -26,10 +29,9 @@
                 <div class="colored-blue"><a href="./try-live.html">Try Live 12 for free</a></div>
                 <div><a href="./login-register.html">Log in or Register</a></div>
             </div>
-
-            <div class="img-cont"><img id="img" src="" alt=""></div>
         </div>
     </header>
+
   <!-- second header -->
     <section class="header header-2">
         <div class="left-header">
@@ -50,71 +52,114 @@
     <!-- the main content -->
      <main class="grid">
         <section class="grid-item">
-            <h2>Live</h2>
-            <p>Get lost in instruments, effects and creative features. Find your own way of making music.</p>
-            <a href="">Buy now</a>
+            <div class="grid-item-content grid-item12">
+                <h2>Live</h2>
+                <br>
+                <p>Get lost in instruments, effects and creative features. Find your own way of making music.</p>
+                <br>
+                <a href="">Buy now</a>
+            </div>
         </section>
-        <section class="grid-item">
-            <h2>Push</h2>
-            <p>Powered by Live, Push puts all the fundamental elements of music-making at your fingertips</p>
-            <a href="">Buy now</a>
-        </section>
-        <section class="grid-item">
-            <h3>Max for Live</h3>
-            <p>Discover new instruments, effects and customizations for Live.</p>
-            <a href="">Learn more ></a>
-            <h3>USD 199</h3>
-            <button>Buy now</button>
-            <h3>USD 99</h3>
-            <button>Crossgrade</button>
-            <p><a href="">What is a crossgrade?</a>
-        </section>
-        <section class="grid-item">
-            <h3>Making Music</h3>
-            <p>74 Creative Strategies for Electronic Music Producers. A book by Dennis DeSantis.</p>
-            <p>Download for free in the following formats: 
-                <a href="">.pdf</a>,
-                <a href="">.mobi for Kindle</a>,
-                <a href="">.epub (for all devices)</a>
-            </p>
-            <a href="">Read chapters from the book</a>
 
-            <h3>USD 30</h3>
-            <button>Buy now</button>
-            <p>Also available on <a href="">Amazon Kindle</a> and <a href="">Apple Books</a></p>
-            <p>Published by Ableton, 340 pages, hardcover, ISBN: 978-3-9817165-0-4</p>
-        </section>
         <section class="grid-item">
-            <h3>Packs</h3>
-            <p>Expand your studio with sounds, tools and instruments for Live.</p>
-            <a href="">Browse Packs</a>
+            <div class="grid-item-content grid-item12">
+                <h2>Push</h2>
+                <br>
+                <p>Powered by Live, Push puts all the fundamental elements of music-making at your fingertips.</p>
+                <br>
+                <a href="">Buy now</a>
+            </div>
         </section>
+
         <section class="grid-item">
-            <h3>Merchandise</h3>
-            <p>Ableton apparel, hardware accessories and more.</p>
-            <a href="">Browse Merchandise</a>
+            <div class="grid-item-content">
+                <h3>Max for Live</h3>
+                <br><br>
+                <p>Discover new instruments, effects and customizations for Live.</p>
+                <a href="">Learn more ></a>
+                <br><br>
+                <h4>USD 199</h4>
+                <br>
+                <button class="btn1">Buy now</button>
+                <br><br>
+                <h4>USD 99</h4>
+                <br>
+                <button class="btn2">Crossgrade</button>
+                <br>
+                <p class="dottedUnderline"><a href="">What is a crossgrade?</a>
+            </div>
         </section>
+
         <section class="grid-item">
-            <div>
+            <div class="grid-item-content">
+                <h3>Making Music</h3>
+                <br>
+                <p>74 Creative Strategies for Electronic Music Producers. A book by Dennis DeSantis.</p>
+                <br>
+                <p>Download for free in the following formats: 
+                    <a href="">.pdf</a>,
+                    <a href="">.mobi for Kindle</a>,
+                    <a href="">.epub (for all devices)</a>
+                </p>
+                <br>
+                <a href="">Read chapters from the book</a> <br><br>
+
+                <h4>USD 30</h4>
+                <br>
+                <button class="btn1">Buy now</button><br><br>
+                <p class="text-shrink">Also available on <a href="">Amazon Kindle</a> and <a href="">Apple Books</a></p>
+                <p class="text-shrink">Published by Ableton, 340 pages, hardcover, ISBN: 978-3-9817165-0-4</p>
+            </div>
+        </section>
+
+        <section class="grid-item">
+            <div class="grid-item-content">
+                <h3>Packs</h3>
+                <br>
+                <p>Expand your studio with sounds, tools and instruments for Live.</p>
+                <br>
+                <a href="">Browse Packs</a>
+            </div>
+        </section>
+
+        <section class="grid-item">
+            <div class="grid-item-content">
+                <h3>Merchandise</h3>
+                <br>
+                <p>Ableton apparel, hardware accessories and more.</p>
+                <br>
+                <a href="">Browse Merchandise</a>
+            </div>
+        </section>
+
+        <section class="grid-item">
+            <div class="grid-item-content grid-item-content-100">
                 <h3>Payment methods</h3>
-                <p>We accept payments via Credit Card, PayPal. <a href="">Learn more > </a></p>
+                <br>
+                <p>We accept payments via Credit Card, PayPal. <a href="">Learn more > </a></p><br>
                     <div class="payment">
                         <img src="/Assets/images/visa.png" alt="">
                         <img src="/Assets/images/mastercard.png" alt="">
                         <img src="/Assets/images/jcb.png" alt="">
                         <img src="/Assets/images/paypal.png" alt="">
                     </div>
-                    
-                    <div>
+                    <div class="grid-item-content">
+                        <br><br>
                         <h3>Secure shopping</h3>
+                        <br>
                         <p>Shopping at the Ableton webshop is safe: Your customer data is transferred using a secure connection.</p>
                     </div>
             </div>
         </section>
+
         <section class="grid-item">
-            <h3>Questions?</h3>
-            <p>Don`t hesitate to get in touch with us if you have any questions before you buy Live or Push.</p>
-            <a href="">Ask us a question > </a>
+            <div class="grid-item-content grid-item-content-100">
+                <h3>Questions?</h3>
+                <br>
+                <p>Don`t hesitate to get in touch with us if you have any questions before you buy Live or Push.</p>
+                <br>
+                <a href="">Ask us a question > </a>  
+            </div>
         </section>
 
 

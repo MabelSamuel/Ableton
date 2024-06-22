@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in or register</title>
-    <link rel="stylesheet" href="/css/login-register.css">
+    <!-- styles for all screen sizes -->
+    <link rel="stylesheet" href="/css/login-register/main.css">
+    <!-- styles for mobile devices -->
+    <link rel="stylesheet" href="/css/login-register/mobile.css" media="screen and (min-width: 480px) and (max-width: 767px)">
+    <!-- styles for tablet -->
+     <link rel="stylesheet" href="/css/login-register/tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <!-- styles for desktop -->
+    <link rel="stylesheet" href="/css/login-register/desktop.css" media="screen and (min-width: 1024px)">
+    
+    <!-- cdn tag for fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+
+<!-- the body of the page -->
+<body class="alata-regular">
     <!-- the first header -->
     <header class="shell-0">
         <div class="header">
@@ -32,39 +44,39 @@
     <!-- the login form and registration form -->
      <section class="shell-1">
         <!-- the login form -->
-         <div class="form-container">
+         <div class="form-container1">
             <div class="login-container">
                 <h2 class="masthead">Log in</h2>
                 <p class="first-line"><b>Why do I need to log in?</b></p>
                 <p>To use any version of Live (including Live Lite or our free trial) you need an Ableton account. It takes less than a minute to create one, and even less to log in if you already have one.</p>
                 <form class="form-parent">
                     <label for="email">E-mail or username</label><br>
-                    <input type="email" id="email" class="input"><br>
-                    <label for="password"><span class="password">Password</span> <a href="" class="password-blue">Forgot password?</a></label><br>
-                    <input type="password" id="password" class="input"><br><br>
+                    <input type="email" id="email" class="input" required><br>
+                    <label for="password" class="password-label"><span class="password">Password</span> <a href="" class="password-blue">Forgot password?</a></label><br>
+                    <input type="password" id="password" class="input" required><br><br>
                     <button class="btn">Log in</button>
                 </form>
             </div>
          </div>
 
          <!-- the registration form -->
-          <div class="form-container">
+          <div class="form-container2">
             <div class="registeration-container">
                 <h2 class="masthead">Register</h2>
                 <p class="first-line"><b>New Customer? Please create an account.</b></p>
                 <p>Your account lets you authorize and download Live plus your included library content.</p>
                 <form class="form-parent">
                     <label for="email-r">Email</label><br>
-                    <input type="email" id="email-r" class="input"><br>
+                    <input type="email" id="email-r" class="input" required><br>
                     <label for="password-r">Password</label><br>
-                    <input type="password" id="password-r" class="input"><br>
+                    <input type="password" id="password-r" class="input" required><br>
                     <label for="first-name">First name</label><br>
                     <input type="text" id="first-name" class="input" placeholder="optional"><br>
                     <p class="aqua">So that we know what to call you if we email you.</p>
                     <label for="last-name">Last name</label><br>
                     <input type="text" id="last-name" class="input" placeholder="optional"><br>
                     <label for="">Country or Region</label><br>
-                    <select name="" id="">
+                    <select name="" id="options">
                         <option value="">Please Choose</option>
                         <option value="">Nigeria</option>
                     </select><br>
@@ -77,5 +89,81 @@
             </div>
           </div>
      </section>
+
+     <!-- the footer -->
+      <footer>
+        <div class="grid">
+            <div class="grid-item1">
+                <h2>Ableton</h2>
+            </div>
+            <div class="grid-item2">
+                <ul class="style-none">
+                    <li><a href="">Register Live or Push</a></li>
+                    <li><a href="">About Ableton</a></li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+                <span>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook" style="color: #065998;"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter" style="color: #000919;"></i></a> 
+                    <a href="https://youtube.com"><i class="fa-brands fa-youtube" style="color: #ff1414;"></i></a> 
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram" style="color: #cf5520;"></i></a> 
+                    <a href="https://tiktok.com"><i class="fa-brands fa-tiktok" style="color: #050000;"></i></a>
+                </span>
+            </div>
+            <div class="grid-item3">
+                <h3>Education</h3>
+                <ul class="style-none">
+                    <li><a href="">Offers for students and teachers</a></li>
+                    <li><a href="">Ableton for the Classroom</a></li>
+                    <li><a href="">Ableton for Colleges and Universities</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-item4">
+                <h3>Sign up to our newsletter</h3>
+                <p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.
+                </p>
+                <span class="input-layout">
+                    <input type="email" name="" id="address" placeholder="Email Address"><button class="footer-btn pointer">Sign up</button>
+                </span>
+            </div>
+
+            <div class="grid-item5">
+                <h3>Community</h3>
+                <ul class="style-none">
+                    <li><a href="">Find Ableton User Groups</a></li>
+                    <li><a href="">Find Certified Training</a></li>
+                    <li><a href="">Become a Certified Trainer</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-item6">
+                <h3>Language and Location</h3>
+                <select class="selection slct1 pointer">
+                    <option value="">English</option>
+                </select>
+                <select class="selection slct2 pointer">
+                    <option value="">Nigeria</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- bottom part of the footer -->
+         <div class="flex-parent">
+                <ul class="flex-left">
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Press Resources</a></li>
+                    <li><a href="">Legal Info</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Settings</a></li>
+                    <li><a href="">Imprint</a></li>
+                </ul>
+            
+                <ul class="flex-right">
+                    <li>Made in Berlin</li>
+                    <li class="footer-img"><img src="/Assets/images/apple-touch-icon.fb3597184cb0.png" alt=""></li>
+                </ul>
+        </div>
+      </footer>
 </body>
 </html>
