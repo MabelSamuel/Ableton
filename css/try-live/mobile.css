@@ -61,18 +61,17 @@ div >a, span>a{
 }
 
 #system-option{
-    font-size: 1.1em;
-    width: 13.5rem;
-    height: 3rem;
-    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 2.5rem;
     border-radius: none;
     border: 2px solid black;
-    margin-right: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .btn{
-    width: 10rem;
-    height: 3rem;
+    width: 100%;
+    height: 2.5rem;
     font-weight: 800;
     border: none;
     background-color: blue;
@@ -84,7 +83,7 @@ div >a, span>a{
     height: fit-content;
     line-height: 1.6rem;
     /* height: 217vh; */
-    padding: 5.2rem;
+    padding: 2.5rem 2.2rem 3rem 2.5rem;
 }
 
 .box{
@@ -107,6 +106,10 @@ div >a, span>a{
 
 .bottom-margin{
     margin-bottom: 1.4rem;
+}
+
+.box4{
+    margin-top: 2rem;
 }
 
 .box4>.margin-b{
