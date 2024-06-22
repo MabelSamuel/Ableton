@@ -41,7 +41,7 @@ div >a, span>a{
 }
 
 .box1-content{
-    padding: 5.3rem 0 5.3rem 5.3rem;
+    padding: 5.3rem 3.8rem 5.3rem 5.3rem;
     display: flex;
     flex-direction: column;
 }
