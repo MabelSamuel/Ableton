@@ -2,10 +2,6 @@
    display: none;
 }
 
-/* .header-2{
-    border-bottom: 0;
-} */
-
 div >a, span>a{
     text-decoration: none;
 }

@@ -12,26 +12,39 @@
 }
 
 .masthead{
-    font-size: 3em;
+    font-size: 2.5rem;
     font-weight: bolder;
-    padding-bottom: 6.6vh;
+    padding-bottom: 5.3vh;
     border-bottom: 3px solid whitesmoke;
 }
 
 .first-line{
-    font-size: 1.3em;
-    padding: 2em 0 0.5em 0;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1.4rem 0 0 0;
+}
+
+.p-font{
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .form-parent > .input, #options{
-    width: 75%;
-    height: 3em;
+    width: 24rem;
+    height: 3rem;
     background-color: #eee;
     border: none;
 }
 
-.password{
-    margin-right: 38%;
+.form-parent>label{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.password-label{
+    width: 24rem;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .registeration-container{
@@ -39,7 +52,9 @@
 }
 
 .aqua{
-    color: aqua;
+    color: #00a2b0;
+    font-weight: 700;
+    font-size: 0.875rem;
 }
 
 .btn{
@@ -71,7 +86,8 @@ footer{
 }
 
 .grid-item1>h2{
-    font-size: 2.7rem;
+    font-size: 2.6rem;
+    font-weight: 600;
 }
 
 .grid-item1{
@@ -98,9 +114,14 @@ footer{
     order: 5;
 }
 
+.footer-font, .footer-bottom-font{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 .input-layout>#address{
-    width: 74%;
-    height: 5vh;
+    width: 83%;
+    height: 1.9rem;
     background-color: #eee;
     border: none;
 }
@@ -108,8 +129,8 @@ footer{
 .input-layout>.footer-btn{
     background-color: #0000ff;
     border: none;
-    height: 5vh;
-    width: 20%;
+    height: 1.9rem;
+    width: 6.2rem;
     color: white;
     font-weight: bold;
 }
@@ -126,16 +147,15 @@ footer{
 .selection{
     background-color: #eee;
     border: none;
+    height: 2rem;
 }
 
 .slct1{
-    width: 15%;
-    height: 4.5vh;
+    width: 7.5rem;
 }
 
 .slct2{
-    width: 21%;
-    height: 4.5vh;
+    width: 13rem;
 }
 
 .flex-left, .flex-right{

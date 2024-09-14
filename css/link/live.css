@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid; */
+    /* border-width: 2px; */
+    /* align-content: center; */
+}
+
+
+.shellZero{
+    width: 100%;
+    height: 89dvh;
+    /* border-style: solid; */
+}
+
+.dropDownMenu{
+    font-size: 80%;
+    height: 11dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 4%;
+    color: black;
+}
+
+.dropDownMenu>div{
+    height: 30%;
+    /* background-color: aqua; */
+    width: fit-content;
+    font-size: larger;
+    font: bolder;
+}
+
+.contentCont{
+    height: 89dvh;
+    /* background-color: palevioletred; */
+    width: 100%;
+    overflow: hidden;
+    /* height: 100%; */
+    /* position: relative; */
+}
+
+.yourself{
+    color: black;
+    background-color: white;
+    padding: 1% 3% 3% 3%;
+    /* border-radius: 50%; */
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.content{
+    /* background-color: red ; */
+    width: 100%;
+    height: 100%;
+    /* align-content: center; */
+    position: relative;
+    color: white;
+}
+
+.content>div{
+    transform: translate(150px,150px);
+    
+}
+
+.sectionBindex a{
+    font-size: inherit;
+    text-decoration: none;
+    color: blue;
+}
+.sectionB{
+    height: 200dvh;
+    /* background-color: chartreuse; */
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionBindex{
+    justify-content: space-between;
+    /* background-color: black; */
+    /* position: relative;
+    bottom: 20px; */
+
+    width: 80%;
+}
+
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.sectionBcontent{
+    /* background-color: blueviolet; */
+    height: 80%;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.flexvert{
+        display: flex;
+        flex-direction: column; }
+
+.flexhori{
+    display: flex;
+}
+
+.sectionC{
+    height: 650vh;
+
+}
+
+.vid{
+    height: 100dvh;
+    width: 100%;   
+}
+
+.vid-A-bg{
+    position: absolute;
+    /* height: 85dvh;
+    width: 100%; */
+    width: 100%;
+    min-height: 100%;
+    /* background-color: rgb(207, 151, 151); */
+    /* overflow: hidden; */
+    left: 0px;
+    top: -15dvh;
+    z-index: -1;
+}
+
+.sectionC{
+    background-color: rgb(224, 220, 220);
+    /* width: 100%; */
+    height: fit-content;
+    row-gap: 20dvh;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-areas:  
+    'a a'
+    'b b'
+    'c d'
+    'e f'
+    'g h'
+    'i .'
+
+}
+
+.sectionC div,h2{
+    align-content: center;
+    /* row-gap: 10%; */
+}
+
+.sectionC p,h2,div{
+    width: fit-content;
+}
+
+.video-B{
+    height: 100dvh;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(47, 131, 209);
+}
+
+.imgC{
+    width: 100%;
+    height: 50dvh;
+}
+
+.gridA{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 300%;
+    grid-area: a;
+}
+
+.gridB{
+    grid-area: b;
+}
+
+.gridC{
+    margin-left: 20%;
+    grid-area: c;
+}
+
+.gridD{
+    margin-left: 7.5%;
+    grid-area: d;
+}
+
+.gridE{
+    margin-left: 40%;
+    grid-area: e;
+}
+
+.gridF{
+    margin-left: 15%;
+    grid-area: f;
+}
+.gridG{grid-area: g;}
+.gridH{grid-area: h;}
+.gridI{grid-area: i;}
+
+.flex-space{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionC h2{
+    top: -15px;
+    position: relative;
+}

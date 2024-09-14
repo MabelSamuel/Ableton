@@ -1,3 +1,4 @@
+/* styling the header */
 .header{
     display: flex;
     justify-content: space-between;
@@ -7,10 +8,35 @@
     background-color: white;
     align-self: start;
     border-bottom: 3px solid whitesmoke;
+    font-weight: 600;
+    font-size: 1.25rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
-.header-2{
-    border-bottom: 0;
+.left-header>div>a>img{
+    height: 5rem;
+    width: 5rem;
+    transform: scale(0.9);
+    transform: translateY(.4rem);
+}
+
+.left-header> div > a:link,
+.right-header> div > a:link{
+    color: black;
+}
+
+.left-header>div > a:visited,
+.right-header> div > a:visited{
+    color: black;
+}
+
+.right-header>.colored-blue > a:link{
+    color: #0000ff;
+}
+
+.right-header>.colored-blue > a:visited{
+    color: #0000ff;
 }
 
 div >a, span>a{
@@ -21,6 +47,13 @@ div >a, span>a{
     display: flex;
     width: 50%;
     justify-content: space-around;
+    margin-left: 1.8rem;
+    align-items: center;
+}
+
+.font-size-header{
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .right-header{
@@ -29,11 +62,15 @@ div >a, span>a{
     width: 25%;
 }
 
-.colored-blue > a, 
+.small-font-size{
+    font-size: 1rem;
+}
+ 
 .password-blue{
     color: blue;
 }
 
+/* styling the body */
 .parent-shell2{
     height: 117vh;
     display: flex;
@@ -55,7 +92,7 @@ div >a, span>a{
 }
 
 .box1-content>h1{
-    font-size: 5em;
+    font-size: 5.6rem;
     line-height: 1;
 }
 .box1-content>h1>.block{
@@ -63,16 +100,25 @@ div >a, span>a{
 }
 
 .box1-content>h3{
-    font-size: 1.5em;
+    font-size: 1.9rem;
+    margin-bottom: 1.4rem;
 }
 
 .box1-content>p>a{
     text-decoration: none;
     color: blue;
+    font-weight: 700;
+}
+
+.box1-content>a{
+    color: #0000ff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
 }
 
 #system-option{
-    font-size: 1.1em;
+    font-size: 1.25rem;
     width: 13.5rem;
     height: 3rem;
     text-align: center;
@@ -100,7 +146,6 @@ div >a, span>a{
 .parent-shell3{
     font-size: 1.1em;
     height: fit-content;
-    /* height: 217vh; */
     display: flex;
     padding: 6.5em;
 }
@@ -127,6 +172,10 @@ div >a, span>a{
     margin-bottom: 1rem;
 }
 
+.box4>h3>a{
+    color: black;
+}
+
 ul.inside{
     margin-top: 1rem;
     list-style-position: inside;
@@ -143,8 +192,12 @@ footer{
     display: grid;
     grid-template-columns: 25% 33% 39%;
     grid-template-rows: 15vh 25vh 20vh;
-    /* border: 1px solid black; */
     margin-bottom: 10%;
+}
+
+.footer-font{
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .grid-item1{
@@ -152,7 +205,8 @@ footer{
 }
 
 .grid-item1>h2{
-    font-size: 3.5rem;
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .grid-item6{
@@ -226,6 +280,11 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 7rem;
+    font-size: 0.8rem;
+}
+
+.footer-bottom-font{
+    font-weight: 700;
     font-size: 0.8rem;
 }
 

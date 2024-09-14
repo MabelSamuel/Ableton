@@ -7,18 +7,58 @@
     background-color: white;
     align-self: start;
     border-bottom: 3px solid whitesmoke;
+    font-weight: 600;
+    font-size: 1.25rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .left-header{
     display: flex;
     width: 50%;
     justify-content: space-around;
+    margin-left: 1.8rem;
+    align-items: center;
+}
+
+.left-header>div>a>img{
+    height: 5rem;
+    width: 5rem;
+    transform: scale(0.9);
+    transform: translateY(.4rem);
+}
+
+.left-header> div > a:link,
+.right-header> div > a:link{
+    color: black;
+}
+
+.left-header>div > a:visited,
+.right-header> div > a:visited{
+    color: black;
 }
 
 .right-header{
     display: flex;
     justify-content: space-around;
     width: 25%;
+}
+
+.right-header>.colored-blue > a:link{
+    color: #0000ff;
+}
+
+.right-header>.colored-blue > a:visited{
+    color: #0000ff;
+}
+
+.font-size-header{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.small-font-size{
+    font-size: 1rem;
 }
 
 .colored-blue > a, 
@@ -38,26 +78,40 @@
 }
 
 .masthead{
-    font-size: 3em;
-    font-weight: bolder;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
     padding-bottom: 6.6vh;
     border-bottom: 3px solid whitesmoke;
 }
 
 .first-line{
-    font-size: 1.3em;
-    padding: 2em 0 0.5em 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 2rem 0 0 0;
+}
+
+.p-font{
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .form-parent > .input, #options{
-    width: 75%;
-    height: 3em;
+    width: 24rem;
+    height: 3rem;
     background-color: #eee;
     border: none;
 }
 
-.password{
-    margin-right: 38%;
+.form-parent>label{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.password-label{
+    width: 24rem;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .registeration-container{
@@ -65,7 +119,9 @@
 }
 
 .aqua{
-    color: aqua;
+    color: #00a2b0;
+    font-weight: 700;
+    font-size: 0.875rem;
 }
 
 .btn{
@@ -74,8 +130,8 @@
     color: white;
     width: 7em;
     height: 3em;
-    font-weight: bold;
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
@@ -92,10 +148,15 @@ footer{
 
 .grid{
     display: grid;
-    grid-template-columns: 25% 30% 40%;
+    grid-template-columns: 25% 33% 39%;
     grid-template-rows: 15vh 25vh 20vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 10%;
+}
+
+.footer-font{
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .grid-item1{
@@ -103,7 +164,8 @@ footer{
 }
 
 .grid-item1>h2{
-    font-size: 3.5rem;
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .grid-item6{
@@ -147,7 +209,7 @@ footer{
 }
 
 .slct1{
-    width: 37.5rem;
+    width: 7.5rem;
 }
 
 .slct2{
@@ -171,6 +233,11 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 7rem;
+    font-size: 0.8rem;
+}
+
+.footer-bottom-font{
+    font-weight: 700;
     font-size: 0.8rem;
 }
 

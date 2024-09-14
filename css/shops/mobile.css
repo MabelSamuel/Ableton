@@ -1,0 +1,113 @@
+/* styling the footer */
+footer{
+    border-top: 3px solid whitesmoke;
+    height: fit-content;
+    padding: 9% 0 9% 9%;
+    font-size: 0.9rem;
+}
+
+.footerGrid{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.footerGrid>.grid-item1>h2{
+    font-size: 2.7rem;
+}
+
+.footerGrid>.grid-item1{
+    order: 0;
+}
+
+.footerGrid>.grid-item2{
+    order: 2;
+}
+
+.footerGrid>.grid-item3{
+    order: 3;
+}
+
+.footerGrid>.grid-item4{
+    order: 1;
+}
+
+.footerGrid>.grid-item5{
+    order: 4;
+}
+
+.footerGrid>.grid-item6{
+    order: 5;
+}
+
+.input-layout>#address{
+    width: 74%;
+    height: 1.9rem;
+    background-color: #eee;
+    border: none;
+}
+
+.input-layout>.footer-btn{
+    background-color: #0000ff;
+    border: none;
+    height: 1.9rem;
+    width: 6.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.icon-large{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.style-none> li>a,
+.flex-left>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.style-none>li, 
+.flex-left>li, 
+.flex-right>li{
+    list-style-type: none;
+}
+
+.selection{
+    background-color: #eee;
+    border: none;
+}
+
+.slct1{
+    width: 23%;
+    height: 4.5vh;
+}
+
+.slct2{
+    width: 41%;
+    height: 4.5vh;
+}
+
+.flex-left, .flex-right{
+    margin-top: 3rem;
+}
+
+.flex-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-img>img{
+    width: 4rem;
+}
+
+.footer-img{
+    display: flex;
+    align-items: center;
+}
